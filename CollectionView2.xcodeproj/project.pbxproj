@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		DB8040AD20F9AB1F003B5A7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8040AC20F9AB1F003B5A7E /* AppDelegate.swift */; };
-		DB8040AF20F9AB1F003B5A7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8040AE20F9AB1F003B5A7E /* ViewController.swift */; };
 		DB8040B220F9AB1F003B5A7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8040B020F9AB1F003B5A7E /* Main.storyboard */; };
 		DB8040B520F9AB1F003B5A7E /* CollectionView2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DB8040B320F9AB1F003B5A7E /* CollectionView2.xcdatamodeld */; };
 		DB8040B720F9AB1F003B5A7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB8040B620F9AB1F003B5A7E /* Assets.xcassets */; };
 		DB8040BA20F9AB1F003B5A7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8040B820F9AB1F003B5A7E /* LaunchScreen.storyboard */; };
+		DB8040C220F9AB57003B5A7E /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8040C120F9AB57003B5A7E /* CollectionViewController.swift */; };
+		DB8040C420F9AB61003B5A7E /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB8040C320F9AB61003B5A7E /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DB8040A920F9AB1E003B5A7E /* CollectionView2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionView2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB8040AC20F9AB1F003B5A7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB8040AE20F9AB1F003B5A7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DB8040B120F9AB1F003B5A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB8040B420F9AB1F003B5A7E /* CollectionView2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CollectionView2.xcdatamodel; sourceTree = "<group>"; };
 		DB8040B620F9AB1F003B5A7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB8040B920F9AB1F003B5A7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB8040BB20F9AB1F003B5A7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB8040C120F9AB57003B5A7E /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		DB8040C320F9AB61003B5A7E /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				DB8040AC20F9AB1F003B5A7E /* AppDelegate.swift */,
-				DB8040AE20F9AB1F003B5A7E /* ViewController.swift */,
+				DB8040C120F9AB57003B5A7E /* CollectionViewController.swift */,
+				DB8040C320F9AB61003B5A7E /* CollectionViewCell.swift */,
 				DB8040B020F9AB1F003B5A7E /* Main.storyboard */,
 				DB8040B620F9AB1F003B5A7E /* Assets.xcassets */,
 				DB8040B820F9AB1F003B5A7E /* LaunchScreen.storyboard */,
@@ -139,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB8040AF20F9AB1F003B5A7E /* ViewController.swift in Sources */,
+				DB8040C220F9AB57003B5A7E /* CollectionViewController.swift in Sources */,
 				DB8040AD20F9AB1F003B5A7E /* AppDelegate.swift in Sources */,
+				DB8040C420F9AB61003B5A7E /* CollectionViewCell.swift in Sources */,
 				DB8040B520F9AB1F003B5A7E /* CollectionView2.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
